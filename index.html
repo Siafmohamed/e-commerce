@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="https://kit.fontawesome.com/92d70a2fd8.js" crossorigin="anonymous"></script>
+        <title>Document</title>
+
+        <link rel="stylesheet" href="app.css">
+    </head>
+    <body>
+        <div class="navbar">
+            <div class="logo">
+                <h1>Shoping</h1>
+            </div>
+            <div class="links">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Conntacy us</a></li>
+                    <li><a href="#">Help</a></li>
+    
+                </ul>
+            </div>
+
+            <div class="btn">
+                <button onclick="window.location.href = 'hello.html';">login out </button>
+            </div>
+        </div>
+        <div class="toolbar">
+            <h1 class="brand">Shop</h1>
+            <p>
+                <a href="cart.htm">
+                    Cart items:
+                    <span id="count">0</span>, Price:
+                    <span id="sum">0</span>
+                </a>
+            </p>
+        </div>
+
+        <div class="products">
+            <div class="product">
+                <img src="pic/p1.webp">
+                <h3>Procut one</h3>
+                <p>Price: 2000</p>
+                <button data-id="1" data-price="2000" data-title="Product one">Add to cart</button>
+            </div>
+
+            <div class="product">
+                <img  src="pic/p2.webp">
+                <h3>Procut two</h3>
+                <p>Price: 3000</p>
+                <button data-id="2" data-price="3000" data-title="Product two">Add to cart</button>
+            </div>
+
+            <div class="product">
+                <img src="pic/p3.webp">
+                <h3>Procut three</h3>
+                <p>Price: 6000</p>
+                <button data-id="3" data-price="6000" data-title="Product three">Add to cart</button>
+            </div>
+
+            <div class="product">
+                <img src="pic/p4.jpg">
+                <h3>Procut four</h3>
+                <p>Price: 1000</p>
+                <button data-id="4" data-price="1000" data-title="Product four">Add to cart</button>
+            </div>
+        </div>
+        <footer>
+            <div class="footer">
+                <div class="footer-left"> 
+                    <h1>SHopping web</h1>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <i class="fa-brands fa-facebook"></i>
+    
+                </div>
+                <div class="footer-Center1"> 
+                    <h1>Help</h1>
+                    <p>Support</p>
+                    <p>Troubleshooting</p>
+                    <p>Contact Us</p>
+                </div>
+                <div class="footer-Center2"> 
+                    <h1>PRODUCTS</h1>
+                    <P>Shoes</P>
+                    <P>Clothing</P>
+                    <P>Accessories</P>
+                </div>
+    
+                <div class="footer-right"> 
+                    <h1>Address</h1>
+                    <P>Cairo , Egypt</P>
+                </div>
+    
+            </div>
+        </footer>
+        <script src="app.js"></script>
+    </body>
+</html>

@@ -1,0 +1,230 @@
+/* Reset default browser styles */
+body, h1, p, ul, li, table, th, td {
+    margin: 0;
+    padding: 0;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Toolbar styling */
+.navbar {
+    margin-bottom : 20px;
+    background-color: #ccc; 
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+.navbar .logo  h1 {
+    float : left; 
+    font-size:  24px; 
+    margin : 10px;
+    color:black;
+ }
+ .navbar .links ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+ }
+ .navbar .links li {
+    margin-right: 20px;
+ }
+ .navbar .links li a{
+    color: black;
+    text-decoration: none;
+ }
+.navbar .btn button{
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+
+.toolbar {
+    background-color: #ffd700;
+    color: black;
+    padding: 10px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.toolbar .brand {
+    margin: 0;
+    font-size: 1.8em;
+}
+
+.toolbar a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.products {
+    width: 800px;
+    margin: auto; 
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.product {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+.product img {
+    width: 50%;
+    height: auto;
+
+}
+
+.product h3 {
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+
+.product p {
+    font-size: 1.1em;
+    color: #666;
+}
+
+.product button {
+    margin-top: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.product button:hover {
+    background-color: #0056b3;
+}
+
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+table th {
+    background-color: #333;
+    color: #fff;
+}
+table td img {/* Adjust the max-width as needed */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.cont  {
+    display: flex; 
+    text-align: center; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh;
+}
+.cont input[type="email"],
+.cont input[type="password"] {
+    border: 1px solid #ccc;
+    width: 350px;
+    height: 50px;
+    padding: 10px;
+}
+
+.cont button {
+    padding: 20px 80px; 
+    border-radius :10px; 
+    margin-top: 10px; 
+    background-color: #AAFF00;
+    color: white;
+    cursor: pointer;
+
+}
+.logout {
+    display: flex; 
+    text-align: center; 
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column;
+}
+
+.logout h1{
+ font-size : 24px; 
+ margin-bottom: 10px;
+}
+
+.logout p {
+    display :-webkit-box;
+    -webkit-box-orient: vertical;
+    overflow : hidden; 
+    -webkit-line-clamp : 4; 
+    margin-bottom : 20px; 
+    max-width : 500px; 
+    padding: 0; 
+}
+.logout button {
+    padding: 20px 80px; 
+    border-radius :10px; 
+    margin-top: 10px; 
+    background-color: #AAFF00;
+    color: white;
+    cursor: pointer;
+}
+
+footer {
+    background-color:#000066;
+    color : white; 
+
+    
+}
+.footer {
+    height:500px;
+    max-width : 1450px; 
+    margin:12px 10px;
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap : wrap;    
+}
+.footer .footer h1 {
+  color: #fff;
+  font-size : 24px; 
+  margin-bottom: 30px;
+}
+.footer .footer p {
+    color: #fff;
+    font-size: 14px; 
+}
+.footer .fa-brands {
+    text-align:center;
+    margin: 5px;
+    color: white; 
+    font-size: 25px; 
+    display: block;
+}
